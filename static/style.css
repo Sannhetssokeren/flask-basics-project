@@ -1,0 +1,35 @@
+/* Центрируем все элементы внутри body */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Высота экрана */
+    margin: 0; /* Убираем отступы по умолчанию */
+    background-color: #f0f0f0; /* Цвет фона */
+}
+
+/* Контейнер для контента */
+.container {
+    text-align: center; /* Центрируем текст внутри контейнера */
+}
+
+/* Стилизация заголовка h1 */
+h1 {
+    font-family: 'Arial', sans-serif; /* Изменяем шрифт */
+    color: #333; /* Цвет текста */
+    margin-bottom: 10px; /* Отступ снизу */
+}
+
+/* Стилизация параграфа p */
+p {
+    font-size: 18px; /* Изменяем размер шрифта */
+    color: #666; /* Цвет текста */
+    margin: 10px 0; /* Отступы сверху и снизу */
+}
+
+/* Стилизация изображения (опционально) */
+img {
+    margin-top: 20px; /* Отступ сверху */
+    border-radius: 8px; /* Скругление углов */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Тень */
+}

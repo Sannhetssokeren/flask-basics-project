@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мое Flask-приложение</title>
+    <!-- Подключаем внешний CSS файл -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <!-- Название сайта -->
+        <h1>Добро пожаловать в Flask!</h1>
+
+        <!-- Описание приложения -->
+        <p>Это простое веб-приложение, созданное с использованием Flask.</p>
+
+        <!-- Изображение -->
+        <!-- Предположим, у вас есть изображение logo.png в static/img/ -->
+        <!-- Flask ищет статические файлы в директории static/ по умолчанию -->
+        <img src="{{ url_for('static', filename='img/logo.png') }}" alt="Логотип Flask" style="width: 200px; height: auto;">
+    </div>
+</body>
+</html>
